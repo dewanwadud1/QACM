@@ -14,5 +14,14 @@ Regardless of the training dataset used, both X and y should follow these struct
                         |  xApp_1   |-------> k_1
             p2 ------>  |...........|
 
-- Here, p1 (input1) and p2 (input2) are the ICPs and k_1 is the KPI for xApp_1. This KPIs are then converted to utility using a z-score normalisation technique presented in the paper.
-- 
+- Here, p1 (input1) and p2 (input2) are the ICPs and k_1 (output) is the KPI for xApp_1. This KPIs are then converted to utility using a z-score normalisation technique presented in the paper.
+
+- In the csv files in this repository, data is organised as- ICPs, KPIs, normalised_KPIs, normalised_QoS_Threshold. The following explains how the 
+gaussian normal distribution is used to generate these data for each xApp. 
+
+
+#### Experimental Model:
+
+- The above gives a general overview of how dataset are organised in the csv files. Five xApps with eight ICPs and six KPIs are used in the experimental model as shown below: 
+
+![Experimental Model Diagram](images/xApp_Config.pdf)
