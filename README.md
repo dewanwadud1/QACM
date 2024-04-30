@@ -25,3 +25,8 @@ gaussian normal distribution is used to generate these data for each xApp.
 - The above gives a general overview of how dataset are organised in the csv files. Five xApps with eight ICPs and six KPIs are used in the experimental model as shown below: 
 
 ![Experimental Model Diagram](images/xApp_Config-1.png)
+
+- Each of the six KPIs are generated using the following six gaussian distribution formulas. 
+$k_1 = 80 \times e^{-\frac{(p_1 + 0)^2}{2p_2^2}}$, $k_2 = 100 \times e^{-\frac{(p_1 + p_3)^2}{2p_2^2}}$, $k_3 = 120 \times e^{-\frac{(p_1 + 45)^2}{2p_4^2}}$, $k_{41} = 120 \times e^{-\frac{(p_6 + (p_2 -30))^2}{2p_5^2}}$, $k_{42} = 150 \times e^{-\frac{(p_6 + (p_2 -50))^2}{2p_5^2}}$, and $k_5 = -35 \times e^{-\frac{(p_8 + (p_1 -25))^2}{2p_7^2}}$
+
+- Values for $p_1$ to $p_8$ in equations are used from the table illustrated above in the figure. 
