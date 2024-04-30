@@ -14,4 +14,5 @@ Regardless of the training dataset used, both X and y should follow these struct
                         |  xApp_1   |-------> k_1
             p2 ------>  |...........|
 
-- Here, p1 and p2 are the ICPs and k_1 is the KPI for xApp_1. This KPIs are then converted to utility using a z-score normalisation technique presented in the paper. 
+- Here, p1 (input1) and p2 (input2) are the ICPs and k_1 is the KPI for xApp_1. This KPIs are then converted to utility using a z-score normalisation technique presented in the paper.
+- 
