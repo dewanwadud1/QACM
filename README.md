@@ -24,4 +24,4 @@ gaussian normal distribution is used to generate these data for each xApp.
 
 - The above gives a general overview of how dataset are organised in the csv files. Five xApps with eight ICPs and six KPIs are used in the experimental model as shown below: 
 
-![Experimental Model Diagram](images/xApp_Config.pdf)
+![Experimental Model Diagram](images/xApp_Config-1.png)
